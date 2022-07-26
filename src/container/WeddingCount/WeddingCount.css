@@ -1,0 +1,58 @@
+.WeddingCount {
+    position: relative;
+    height: 600px;
+    width: 100%;
+    background-color: #fff;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #cc9842;
+}
+
+.container {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-time {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #cc9842;
+    border-radius: 8px;
+    margin: 0 2rem;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: #fff;
+    border-radius: 8px;
+    font-size: 22px;
+    transform: translate3d(15px, -10px, 0);
+    box-shadow: -2px 2px 5px 1px #dbdbdb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.f-number {
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.show-counter {
+    display: flex;
+    text-align: center;
+}
+
+.countdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

@@ -1,0 +1,6 @@
+export {default as Header} from './Header/Header'
+export {default as WeddingEvent} from './WeddingEvent/WeddingEvent'
+export {default as WeddingFormat} from './WeddingFormat/WeddingFormat'
+export {default as WeddingBanner} from './WeddingBanner/WeddingBanner'
+export {default as WeddingCount} from './WeddingCount/WeddingCount'
+export {default as WeddingAdvert} from './WeddingAdvert/WeddingAdvert'

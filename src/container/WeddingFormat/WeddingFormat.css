@@ -1,0 +1,31 @@
+.WeddingFormat {
+    position: relative;
+    background-image: url('./jenny-bg.png');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+}
+
+.lg-name {
+    background-image: url('./frem.png');
+    background-position: center;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    font-size: 30px;
+    color: #cc9842;
+}
+
+.f-street {
+    font-size: 18px;
+}
+
+.font-link {
+    font-size: 48px;
+    font-family: 'Send Flowers', cursive;
+}
