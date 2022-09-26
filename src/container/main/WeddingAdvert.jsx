@@ -1,8 +1,8 @@
 import React from 'react';
-import './WeddingAdvert.css';
-import bottom from './bottom.png';
-import { FontAwesomeIcon } from '../node_modules/@fontawesome/react-fontawesome';
-import {  faFacebookF, faTwitter, faInstagram } from '../node_modules/@fontawesome/free-brands-svg-icons';
+import '../css/WeddingAdvert.css';
+import bottom from '../image/bottom.png';
+import { FontAwesomeIcon } from '@fontawesome/react-fontawesome';
+import {  faFacebookF, faTwitter, faInstagram } from '@fontawesome/free-brands-svg-icons';
 
 const WeddingAdvert = () => {
     return (
@@ -21,13 +21,7 @@ const WeddingAdvert = () => {
                     <FontAwesomeIcon icon={faInstagram} className='icon'/>
                 </div>
                 <div className='grid'>
-                    <span>Home</span>
-                    <span>About</span>
-                    <span>Schedule</span>
-                    <span>Pricelist</span>
-                </div>
-                <div className='grid'>
-                    <span> 2020 Dans Powered By Daniel</span>
+                    <span>@ 2022 By Daniel</span>
                 </div>
             </div>
         </div>

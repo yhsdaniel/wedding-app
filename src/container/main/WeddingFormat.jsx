@@ -1,5 +1,5 @@
 import React from 'react';
-import './WeddingFormat.css'
+import '../css/WeddingFormat.css'
 
 const WeddingFormat = () => {
     const database = {
@@ -12,9 +12,9 @@ const WeddingFormat = () => {
     return(
         <div className='WeddingFormat'>
             <div className='lg-name'>
-                <span className='font-link'>{database.manName}</span><br />
-                <span className='font-link'>&</span><br />
-                <span className='font-link'>{database.womanName}</span><br />
+                <span className='font-link'>{database.manName}</span>
+                <span className='font-link'>&</span>
+                <span className='font-link'>{database.womanName}</span>
                 <span>{database.hotel}</span>
                 <span className='f-street'>{database.street}</span>
             </div>

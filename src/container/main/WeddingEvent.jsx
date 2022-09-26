@@ -1,13 +1,13 @@
 import React from 'react';
-import './WeddingEvent.css'
-import bottom from './bottom.png';
+import '../css/WeddingEvent.css'
+import bottom from '../image/bottom.png';
 
 const WeddingEvent = () => {
     return (
         <div className='WeddingEvent'>
             <img src={bottom} alt="bottom" />
             <h1>When and Where</h1>
-            <span>A beautiful app for consectetur adipisicing elit, sed do eiusmod tempor incididunt ut mollit anim id est laborum. Sedut perspiciatis unde omnis.</span>
+            <span className='txt'>A beautiful app for consectetur adipisicing elit, sed do eiusmod tempor incididunt ut mollit anim id est laborum. Sedut perspiciatis unde omnis.</span>
             <div class="contain-card">
                 <div class="card">
                     <div class="card-body">

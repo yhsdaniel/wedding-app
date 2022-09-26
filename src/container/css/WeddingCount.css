@@ -56,3 +56,46 @@
     align-items: center;
     flex-direction: column;
 }
+
+@media only screen and (max-width: 480px) {
+    .f-txt-countdown {
+        text-align: center;
+        padding: 0 2rem;
+    }
+    .container-time {
+        width: 65px;
+        height: 85px;
+        margin: 0 .8rem;
+    }
+
+    .box {
+        width: 65px;
+        height: 85px;
+        transform: translate3d(10px, -10px, 0);
+    }
+
+    .f-number {
+        font-size: 30px;
+    }
+
+    .f-txt {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .WeddingCount {
+        height: 800px;
+    }
+    .container {
+        margin-top: 3rem;
+    }
+
+    .show-counter {
+        flex-direction: column;
+    }
+
+    .container-time {
+        margin: .5rem;
+    }
+}

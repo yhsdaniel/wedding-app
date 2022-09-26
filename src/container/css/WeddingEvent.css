@@ -84,3 +84,28 @@
     box-shadow: none !important;
     transition: .3s ease-in-out;
 }
+
+@media only screen and (max-width: 480px) {
+    .WeddingEvent {
+        margin: 10rem 0;
+    }
+    .txt {
+        padding: 0 1rem;
+    }
+
+    .contain-card {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 80%;
+        height: 250px;
+        margin: 0.5rem 0;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .WeddingEvent {
+        margin: 15rem 0;
+    }
+}

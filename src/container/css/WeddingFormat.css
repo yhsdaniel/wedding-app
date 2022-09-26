@@ -1,6 +1,6 @@
 .WeddingFormat {
     position: relative;
-    background-image: url('./jenny-bg.png');
+    background-image: url('../image/jenny-bg.png');
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -8,7 +8,7 @@
 }
 
 .lg-name {
-    background-image: url('./frem.png');
+    background-image: url('../image/frem.png');
     background-position: center;
     background-size: 40%;
     background-repeat: no-repeat;
@@ -26,6 +26,19 @@
 }
 
 .font-link {
+    margin: 1rem 0;
     font-size: 48px;
     font-family: 'Send Flowers', cursive;
+}
+
+@media only screen and (max-width: 480px) {
+    .lg-name {
+        background-size: 100%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .font-link {
+        margin: .5rem 0;
+    }
 }
