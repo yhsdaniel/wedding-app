@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/wedding-app/static/css/main.71e784b0.css",
+    "main.css": "/wedding-app/static/css/main.7212e9b5.css",
     "main.js": "/wedding-app/static/js/main.ba66eb37.js",
     "static/js/787.1c863b1e.chunk.js": "/wedding-app/static/js/787.1c863b1e.chunk.js",
     "static/media/jenny-bg.png": "/wedding-app/static/media/jenny-bg.4d1b8bc0511ab200cd72.png",
@@ -11,12 +11,12 @@
     "static/media/Logo_Dans.png": "/wedding-app/static/media/Logo_Dans.65741e56eac52a03e945.png",
     "static/media/bottom.png": "/wedding-app/static/media/bottom.0e9d4df2dd9d11a93a58.png",
     "index.html": "/wedding-app/index.html",
-    "main.71e784b0.css.map": "/wedding-app/static/css/main.71e784b0.css.map",
+    "main.7212e9b5.css.map": "/wedding-app/static/css/main.7212e9b5.css.map",
     "main.ba66eb37.js.map": "/wedding-app/static/js/main.ba66eb37.js.map",
     "787.1c863b1e.chunk.js.map": "/wedding-app/static/js/787.1c863b1e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.71e784b0.css",
+    "static/css/main.7212e9b5.css",
     "static/js/main.ba66eb37.js"
   ]
 }
